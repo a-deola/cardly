@@ -1,7 +1,14 @@
 const Links = [
     {
+        id: "twitter_link",
+        link: "https://twitter.com/Adextra01",
+        subText: "Let's link up on Twitter, I would love to meet you",
+        linkDescription: "Twitter Link"
+    },
+    {
         id: "btn_zuri",
         link: "https://training.zuri.team/",
+        subText: "Want to learn a tech skill today? Zuri is here for you ",
         linkDescription:"Zuri Team"
     },
     {

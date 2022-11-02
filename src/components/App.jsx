@@ -1,12 +1,12 @@
 
-import './App.css';
-import Card from "./Card";
+import '../App.css';
+import Main from "./Main";
 import Footer from './Footer';
 
 function App() {
   return (
-    <div className="App">
-    <Card /> 
+    <div className="container">
+    <Main /> 
     <Footer />
     </div>
   );

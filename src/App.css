@@ -1,5 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+#slack{
+    visibility: hidden;
+}
+#profile_img{
+    margin-bottom: 3px;
+}
+hr{
+    margin: 5% 8% 2%;
+    border: .2px solid #EAECF0;
+}
+.my_links{
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: #EAECF0;
+    width: 80%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+.share{
+    position: relative;
+    left: 15rem;
+    margin: 10px;
+    border: 1px solid #EAECF0;
+    border-radius: 100%;
+    padding: 5px;
+    width: 25px;
+}
+.App{
+    width: 80%;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.btm-nav{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    text-align: center;
+}
+.btm-nav a{
+    margin: 10px;
+}
+.footer-links{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 10px 50px;
+}
+.footer-links img{
+    width: 110px;
+}
+.footer-links p{
+    color:  #667085;
+    font-size: small;
+}
+@media screen and (max-width: 600px){
+    .footer-links{
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer-links p, img{
+        margin: 5px;
+    }
+    .share{
+        left: 8rem;
+        padding: 8px;
+        width: 25px;
+    }
 }
