@@ -4,11 +4,6 @@ import share from "./share_icon.png"
 import mobile from "./mobile_icon.png"
 
 export default function Profile() {
-  const { innerWidth } = window
-  const [isMobile, setIsMobile] = useState(false);
-  if (innerWidth <= 800) {
-    setIsMobile(true)
-  }
   return <Card variant="none" className="profile">
     <picture>
       <source media="(max-width: 600px)" srcset={mobile} />
