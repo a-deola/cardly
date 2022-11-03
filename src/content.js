@@ -25,9 +25,15 @@ const Links = [
     },
     {
         id: "book_design",
-        link:"https://books.zuri.team/design-rules ",
+        link:"https://books.zuri.team/design-rules",
         subText: "Get free design book from zuri today",
         linkDescription: "Design Books"
+    },
+    {
+        id: "contact",
+        link:"/contact",
+        subText: "Get free design book from zuri today",
+        linkDescription: "Contact Me" 
     }
 ]
 export default Links
