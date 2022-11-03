@@ -78,7 +78,7 @@ hr{
     }
     .share{
         left: 8rem;
-        padding: 8px;
+        padding: 8px 6px;
         width: 25px;
     }
 }
