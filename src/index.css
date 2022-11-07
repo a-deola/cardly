@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body{
-  font-family: 'Inter', sans-serif;
-}
-.container{
-  width: 100%;
-  justify-content: center;
-  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 100%;
+  font-size: 1rem;
 }
