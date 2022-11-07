@@ -10,30 +10,33 @@
 #profile_img{
     margin-bottom: 3px;
 }
+#z-tag{
+    width: 150px;
+}
 hr{
-    margin: 5% 8% 2%;
-    border: .2px solid #EAECF0;
+    margin: 1% 8% ;
+    border: 1px solid #EAECF0;
 }
 .my_links{
     text-decoration: none;
     color: black;
-    font-size: 11px;
+    font-size: 15px;
     font-weight: bold;
     background-color: #EAECF0;
     width: 80%;
     text-align: center;
-    padding: 15px;
+    padding: 1rem;
     border-radius: 5px;
-    margin: 10px auto;
+    margin: 5px auto;
 }
 .share{
     position: relative;
     left: 15rem;
     margin: 10px;
-    border: 1px solid #EAECF0;
+    border: 1px dotted #EAECF0;
     border-radius: 100%;
     padding: 5px;
-    width: 25px;
+    width: 30px;
 }
 .App{
     width: 80%;
@@ -49,17 +52,20 @@ hr{
     width: 80%;
     justify-content: center;
     align-items: center;
-    margin: 15px;
     text-align: center;
+    margin: 10px;
 }
 .btm-nav a{
     margin: 10px;
 }
+footer{
+    bottom:0;
+   width: 100%;
+}
 .footer-links{
     display: flex;
-    width: 90%;
     justify-content: space-between;
-    margin: 10px 50px;
+    margin: 15px 50px 10px;
 }
 .footer-links img{
     width: 110px;
@@ -68,13 +74,67 @@ hr{
     color:  #667085;
     font-size: small;
 }
+
+/* Contact Page */
+.contact-body{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin: 5% 15% 2%;
+}
+.contact-heading{
+    margin-bottom: 10px;
+}
+.intro{
+    margin-bottom: 20px;
+}
+.my-form, .form-fields{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.names{
+    display: flex;
+    justify-content: space-between;
+}
+.right-link{
+    margin-left: 20px;
+}
+.my-check{
+    margin: 15px 0 20px;
+}
+.my-check input{
+    margin-right: 10px;
+}
+.my-inputs{
+    margin: 5px  0 15px;
+    padding: 10px;
+    border: 1px solid #D0D5DD;
+    border-radius: 5px;
+}
 @media screen and (max-width: 600px){
+    body{
+        min-width: 100vw;
+    }
     .footer-links{
         flex-direction: column;
         width: 100%;
+        margin: 10px 2rem ;
     }
     .footer-links p, img{
-        margin: 5px;
+        margin: 5px 0;
+    }
+    .names{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .mobile-text{
+        font-size: 14px;
+    }
+    .right-link{
+        margin: auto;
+        width: 100%;
     }
     .share{
         left: 8rem;

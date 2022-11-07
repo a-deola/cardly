@@ -17,17 +17,23 @@ const Links = [
         subText: "Your go to for the latest books on coding and design",
         linkDescription: "Python Book"
     },
-    {
-        id: "pitch",
-        link:"https://background.zuri.team",
-        subText:"Everything you want to know about coders",
-        linkDescription:"Background checks for coders"
-    },
+    // {
+    //     id: "pitch",
+    //     link:"https://background.zuri.team",
+    //     subText:"Everything you want to know about coders",
+    //     linkDescription:"Background checks for coders"
+    // },
     {
         id: "book_design",
-        link:"https://books.zuri.team/design-rules ",
+        link:"https://books.zuri.team/design-rules",
         subText: "Get free design book from zuri today",
         linkDescription: "Design Books"
+    },
+    {
+        id: "contact",
+        link:"/contact",
+        subText: "Get free design book from zuri today",
+        linkDescription: "Contact Me" 
     }
 ]
 export default Links
