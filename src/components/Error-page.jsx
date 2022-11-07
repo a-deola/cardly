@@ -11,8 +11,8 @@ export default function ErrorPage(){
         <h1>We can't find that page</h1>
             <p>Sorry, the page you are looking for doesn't exist</p>
             <div>
-                <Button variant= "outlined">Go back </Button>
-                <Button variant= "contained">Take me home</Button>
+                <Button variant= "outlined" href= "/">Go back </Button>
+                <Button variant= "contained" href= "/">Take me home</Button>
             </div>
             <Footer />
         </div>
