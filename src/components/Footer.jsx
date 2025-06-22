@@ -1,12 +1,6 @@
-import Zuri from "./vector.png"
-import ingressive from "./I4G.png"
 export default function Footer() {
+    const year = new Date().getFullYear();
    return  <footer>
-        <hr/>
-        <div className="footer-links">
-            <img id="z-tag" alt="zuri" src={Zuri} />
-            <p>Hng Internship 9 Frontend Task</p>
-            <img  alt="I4G" src={ingressive} />
-        </div>
+        <p>Made with  ❤️  &copy;{year}</p>
     </footer>
 }

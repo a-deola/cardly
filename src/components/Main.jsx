@@ -15,7 +15,6 @@ export default function Main() {
     >
       {Links.map((text, index) => <ListItem
         key={index}
-        id={text.id}
         link={text.link}
         name={text.linkDescription}
         title={text.subText}

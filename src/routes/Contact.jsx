@@ -9,6 +9,7 @@ return <div>
             <Intro />
             <Form />
         </Box>
+        <hr />
         <Footer />
     </div>
 }
