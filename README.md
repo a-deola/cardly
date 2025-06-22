@@ -12,8 +12,6 @@ Cardly is a minimal, elegant bio/link app to showcase your personal brand — al
 
 ---
 
-
-
 ## 🚀 Getting Started
 
 ```bash
