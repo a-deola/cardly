@@ -1,7 +1,6 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 // import TwitterIcon from "@mui/icons-material/Twitter";
-import PhoneIcon from "@mui/icons-material/Phone";
 import PermPhoneMsgIcon from "@mui/icons-material/PermPhoneMsg";
 import AssignmentIndIcon from "@mui/icons-material/AssignmentInd";
 const Links = [
