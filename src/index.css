@@ -19,15 +19,13 @@ main {
   background: linear-gradient(to top right, #2a0a29, #f3c0cb);
   color: white;
 }
-#profile_img {
-  margin-bottom: 1rem;
-}
 #z-tag {
   width: 150px;
 }
 .name {
   font-family: "Playwrite CU", sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
   font-weight: 700;
 }
 
@@ -38,10 +36,17 @@ main {
   font-weight: bold;
   background-color: #eaecf0;
   width: 80%;
-  text-align: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
   padding: 1rem;
   border-radius: 5px;
   margin: 5px auto;
+}
+.my_links:hover {
+  background-color: #d0d5dd;
 }
 .profile {
   display: flex;
@@ -58,6 +63,7 @@ footer {
   padding: 15px 0;
   justify-content: center;
   align-items: center;
+  border-top: 1px solid #eaecf0;
 }
 
 /* Contact Page */
@@ -97,6 +103,23 @@ footer {
   padding: 10px;
   border: 1px solid #d0d5dd;
   border-radius: 5px;
+}
+/* error-page */
+.error-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.error-text {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #dc2626;
+  margin-bottom: 20px;
+}
+.error-emoji {
+  width: 50px;
+  margin-right: 10px;
 }
 @media screen and (max-width: 600px) {
   body {
