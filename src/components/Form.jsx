@@ -6,7 +6,7 @@ export default function Form() {
       className="my-form"
       action="mailto:meetprecious1403@gmail.com"
       method="post"
-      encType="text/plain"
+      autoComplete="on"
     >
       <div className="names">
         <label className="form-fields mobile-text">
