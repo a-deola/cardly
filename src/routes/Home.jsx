@@ -1,13 +1,14 @@
 
-import Profile from "./Profile";
+import Profile from "../components/Profile";
 import Links from "../content"
-import ListItem from "./ListItem";
-import Socials from "./Socials";
+import ListItem from "../components/ListItem";
+import Footer from "../components/Footer";
 import { Grid } from "@mui/material";
 
 export default function Main() {
-  return <div>
-    <Profile />
+  return <>
+  <main>
+  <Profile />
     <Grid container 
     direction="column" 
     justifyContent="center"
@@ -19,7 +20,8 @@ export default function Main() {
         name={text.linkDescription}
         title={text.subText}
       />)}
-      <Socials />
     </Grid>
-  </div>
+  </main>
+    <Footer />
+  </>
 }

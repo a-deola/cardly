@@ -1,6 +1,9 @@
 export default function Footer() {
-    const year = new Date().getFullYear();
-   return  <footer>
-        <p>Made with  ❤️  &copy;{year}</p>
+  const year = new Date().getFullYear();
+  return (
+    <footer>
+      <hr />
+      <p>Made with ❤️ &copy;{year}</p>
     </footer>
+  );
 }
