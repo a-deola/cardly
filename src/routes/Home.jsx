@@ -9,13 +9,7 @@ export default function Main() {
     <>
       <main>
         <Profile />
-        <Grid
-          container
-          direction="column"
-          justifyContent="center"
-          alignItems="center"
-          spacing={3}
-        >
+        <div className="my-links-container">
           {Links.map((text, index) => (
             <ListItem
               key={index}
@@ -25,7 +19,7 @@ export default function Main() {
               icon={text.icon || <></>}
             />
           ))}
-        </Grid>
+        </div>
       </main>
       <Footer />
     </>

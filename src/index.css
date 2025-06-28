@@ -1,35 +1,38 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+CU:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Playwrite+CU:wght@100..400&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
-hr {
-  border: 1px solid #eaecf0;
-}
 main {
   flex: 1;
+  width: 100%;
 }
 #root {
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
   background: linear-gradient(to top right, #2a0a29, #f3c0cb);
   color: white;
 }
-#z-tag {
-  width: 150px;
+#root,
+.my-links-container,
+.profile,
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
+
 .name {
   font-family: "Playwrite CU", sans-serif;
   font-size: 1.5rem;
-  margin-bottom: 1rem;
   font-weight: 700;
 }
 
-.my_links {
+.my-links {
   text-decoration: none;
   color: black;
   font-size: 15px;
@@ -45,24 +48,15 @@ main {
   border-radius: 5px;
   margin: 5px auto;
 }
-.my_links:hover {
+.my-links:hover {
   background-color: #d0d5dd;
 }
 .profile {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 15px;
+  padding-top: 10px;
 }
 footer {
   bottom: 0;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
   padding: 15px 0;
-  justify-content: center;
-  align-items: center;
   border-top: 1px solid #eaecf0;
 }
 
@@ -136,10 +130,5 @@ footer {
   .right-link {
     margin: auto;
     width: 100%;
-  }
-  .share {
-    left: 8rem;
-    padding: 8px 6px;
-    width: 25px;
   }
 }

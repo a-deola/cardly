@@ -1,7 +1,7 @@
 export default function ListItem(props) {
   return (
     <a
-      className="my_links"
+      className="my-links"
       target="_blank"
       rel="noopener noreferrer"
       title={props.title}
