@@ -1,6 +1,5 @@
 import { Button, TextField } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
-import { NoEncryption } from "@mui/icons-material";
 export default function Form() {
   return (
     <form
