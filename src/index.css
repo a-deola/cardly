@@ -66,11 +66,12 @@ footer {
   flex-direction: column;
   display: flex;
   justify-content: center;
+  color: white;
   margin: 5% 15% 2%;
 }
 .contact-heading {
   margin-bottom: 10px;
-  color: "#262c35";
+  color: #f3c0cb;
 }
 .intro {
   margin-bottom: 20px;

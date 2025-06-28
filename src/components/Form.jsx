@@ -1,5 +1,6 @@
 import { Button, TextField } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
+import { NoEncryption } from "@mui/icons-material";
 export default function Form() {
   return (
     <form
@@ -41,11 +42,11 @@ export default function Form() {
         Message
         <TextField
           multiline
-          rows={4}
+          color="secondary"
+          rows={2}
           InputProps={{ className: "moblie-text" }}
           margin="dense"
           label="Send a message"
-          placeholder="Send me a message and I'll reply you as soon as possible..."
         />
       </label>
       <div className="my-check">
